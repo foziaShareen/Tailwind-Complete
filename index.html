@@ -1,23 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="./tailwind.config.js"></script>
     <script>
-   tailwind.config = {
-        darkMode: 'class',
-    }
+       
       </script>
-      <script>
-        
-      </script>
+
 </head>
-<body >
-    <div class="flex justify-center items-center h-screen">
-        <button class ='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-10 px-14 rounded-full shadow-lg text-5xl select-none' onclick="document.body.classList.toggle('dark:bg-slate-800')">Switch</button>
+
+<body class="bg-purple-100">                                          
+   <div class="m-auto max-w-7xl ">
+    <header class="border-b h-28 ">
+        <div class="flex items-center justify-between py-2 mx-auto">
+            <div class="flex items-center">
+                <img  class="w-12" src="./images/8_1sasa11.png" alt="logo">
+                <span>Cosmatic</span>
+            </div>
+            <nav>
+                <span class="p-3 text-lg hover:bg-purple-300 hover:cursor-pointer hover:rounded ">Home</span>
+                <span class="p-3 text-lg hover:bg-purple-300 hover:cursor-pointer hover:rounded ">Courses</span>
+                <span class="p-3 text-lg hover:bg-purple-300 hover:cursor-pointer hover:rounded ">About Us</span>
+            </npurple
+        </div>
+    </header>
+    <main >
+          <section class="my-20 text-center ">
+<h1 class="text-4xl font-semibold ">Discover Bliss, Embrace Beauty</h1>
+<p class="mt-2 text-xl mb-7"> A collection of beauty products authored by a brand or an individua</p>
+<button class="p-3 text-lg text-white bg-purple-500 border rounded-full hover:bg-purple-900">Know More</button>
+
+    </section> 
+        
+        <!-- <-- cards section starts here -->
+         <section class="flex flex-wrap justify-between">
+<div class="w-full p-3 lg:w-1/3 md:w-1/2">
+    <div class="max-w-sm p-3 border rounded hover:cursor-pointer sm:mx-auto">
+        <img class="object-cover object-center w-full lg:h-58 md:h-46" src="https://img.freepik.com/premium-photo/background-producthd-8k-wallpaper-stock-photographic-image_853645-51526.jpg" alt="">
+        <h1 class="text-lg font-bold">Website</h1>
+        <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis</p>
+        
+    </div> 
+</div> 
+<div class="w-full p-3 md:w-1/2 lg:w-1/3">
+    <div class="max-w-sm p-3 border rounded hover:cursor-pointer sm:mx-auto">
+        <img class="object-contain h-58 w-96 " src="https://img.freepik.com/premium-photo/skincare-beauty-product_946209-5955.jpg" alt="">
+        <h1 class="text-lg">Website</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis</p>
+    </div> 
+ </div>
+<div class="w-full p-3 md:w-1/2 lg:w-1/3">
+    <div class="max-w-sm p-3 border rounded hover:cursor-pointer sm:mx-auto">
+        <img class="object-cover h-58 w-96 " src="https://img.freepik.com/premium-photo/background-producthd-8k-wallpaper-stock-photographic-image_853645-51526.jpg" alt="">
+        <h1 class="text-lg">Website</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis</p>
     </div>
+</div>
+<div class="w-full p-3 md:w-1/2 lg:w-1/3 sm:flex sm:justify-center">
+    <div class="max-w-sm p-3 border rounded md:col-start-1 md:col-span-2 hover:cursor-pointer sm:mx-auto">
+        <img class="object-cover h-58 w-96 " src="https://img.freepik.com/premium-photo/background-producthd-8k-wallpaper-stock-photographic-image_853645-51526.jpg" alt="">
+        <h1 class="text-lg">Website</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis</p>
+    </div>
+</div>
+
+        </section>
+    </main> 
+    
+
+   </div>
 </body>
 </html>
