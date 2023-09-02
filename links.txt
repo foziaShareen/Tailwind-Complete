@@ -1,0 +1,14 @@
+API_key=9c79c09c0a980777387b9e6fa37bcdb3
+Base_url=https://api.themoviedb.org/3
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=9c79c09c0a980777387b9e6fa37bcdb3&language=en-US&page=1
+
+https://api.themoviedb.org/3/movie/search?api_key=9c79c09c0a980777387b9e6fa37bcdb3&language=en-US&page=1
+
+https://api.themoviedb.org/3/movie/popular?api_key=9c79c09c0a980777387b9e6fa37bcdb3&language=en-US&page=1
+
+https://api.themoviedb.org/3/movie/top_rated?api_key=9c79c09c0a980777387b9e6fa37bcdb3&language=en-US&page=1
+
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=9c79c09c0a980777387b9e6fa37bcdb3&language=en-US&page=1
+
+https://api.themoviedb.org/3/movie/up_coming?api_key=9c79c09c0a980777387b9e6fa37bcdb3&language=en-US&page=1
